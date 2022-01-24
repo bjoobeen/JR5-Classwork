@@ -48,5 +48,5 @@ function myGradeFunction(x) {
         return "F";
 }
 
-var result = myGradeFunction(98);
+var result = myGradeFunction(10);
 console.log(result);

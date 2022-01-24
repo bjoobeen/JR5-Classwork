@@ -6,6 +6,7 @@
 //E = Edge Case
 
 //? Define function with 2 params
+
 function tipFunction(totalPrice, tip) {
     var percentage = (tip / totalPrice)*100;
     console.log(percentage)
@@ -21,4 +22,4 @@ function tipFunction(totalPrice, tip) {
     }
 }
 
-var check = tipFunction(200, 10);
+tipFunction(200, 10);
